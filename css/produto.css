@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=Oswald:wght@200..700&display=swap');
 
 /*SEM MARGEM NO SITE*/
 * {
@@ -8,6 +9,21 @@
     box-sizing: border-box;
 }
 
+:root {
+
+    --fontitulo: "Young Serif", serif;
+    --fontexto: "Oswald", sans-serif;
+    --fontmenu: "Comfortaa", sans-serif;
+    --tam16: 16px;
+    --tam48: 48px;
+    --tam20: 20px;
+    --tam16: 16px;
+    --tam28: 28px;
+    --tam36: 36px;
+    --cor1: #F5EF41;
+    --cor2: #281933;
+
+}
 .container {
     display: flex;
     justify-content: center;
@@ -65,7 +81,7 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 78px;
+    height: 55px;
 
 
 }
@@ -78,9 +94,9 @@ nav ul li {
 
 /* TEXTO DO MENU */
 .txtmenu {
-    font-family: "Oswald", sans-serif;
+    font-family: var(--fontmenu);
     color: black;
-    font-size: 25px;
+    font-size: var(--tam16);
     font-weight: 300;
     text-decoration: none;
     text-align: center;

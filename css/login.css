@@ -1,6 +1,7 @@
 /*fontes externas */
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=Oswald:wght@200..700&display=swap');
 
 /*margin do site */
 * {
@@ -13,6 +14,8 @@
 :root {
     --fontitulo: "Young Serif", serif;
     --fontexto: "Oswald", sans-serif;
+    --fontmenu: "Comfortaa", sans-serif;
+    --tam16: 16px;
     --tam48: 48px;
     --tam20: 20px;
     --tam28: 28px;
@@ -83,7 +86,7 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 78px;
+    height: 55px;
 
 
 }
@@ -96,9 +99,9 @@ nav ul li {
 
 /* texto menu */
 .txtmenu {
-    font-family: var(--fontexto);
+    font-family: var(--fontmenu);
     color: black;
-    font-size: 25px;
+    font-size: var(--tam16);
     text-decoration: none;
     text-align: center;
     font-weight: 300;
