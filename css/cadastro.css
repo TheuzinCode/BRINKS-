@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variavveis pre definidas */
+:root {
+    --fontitulo: "Young Serif", serif;
+    --fontexto: "Oswald", sans-serif;
+    --tam48: 48px;
+    --tam20: 20px;
+    --tam28: 28px;
+    --tam36: 36px;
+    --cor1: #F5EF41;
+    --cor2: #281933;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #FFFEE9;
+}
+
+header {
+    display: flex;
+    background-color: #F5EF41;
+    justify-content: center;
+    align-items: center;
+    height: 122px;
+}
+
+
+.nomesite {
+    font-family: var(--fontitulo);
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--tam48);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* tamanho do icone */
+.tamIcone{
+    width: 25px;
+    height: 25px;
+}
+
+/* icone */
+.c {
+    position: absolute;
+    left: 57%;
+    top: 20px;
+}
+
+
+/* icones */
+.carrinho {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    right: 150px;
+    top: 40px;
+}
+
+
+.menu {
+    background-color: #FFFCAB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 78px;
+
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+.txtmenu {
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 300;
+}
+
+.bloco{
+    background-color: #FFFFFF;
+    width: 840px;
+    height: 990px;
+    margin-top: 70px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
+}
+
+.itensOb{
+    color: red;
+    position: absolute;
+    left: 30%;
+    font-family: var(--fontexto);
+    font-size: 13px;
+    margin-bottom: -25px;
+    font-weight: 300;
+
+}
+
+
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+    font-family: var(--fontexto);
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.titulo {
+    display: flex;
+    margin-top: 20px;
+    font-family: var(--fontexto);
+    font-weight: 300;
+    font-style: normal;
+    font-size: var(--tam20);
+    width: 400px;
+    margin-bottom: 5px;
+
+}
+
+/* caixa de entrada de dados */
+.input {
+    border: 2px solid #939292;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 480px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.somente{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.termos{
+    text-align: left;
+    width: 470px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+.botao {
+    margin-top: 15px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--tam28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5EF41;
+    width: 300px;
+    height: 70px;
+    border: 2px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.botao:focus {
+    outline: none;
+    background-color: #FFFCAB;
+    color: black;
+}
+
+.container02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+
+}
+
+
+
+.div1 {
+    display: flex;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 23px;
+    height: 150px;
+    width: 150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 355px;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #2E2436;
+
+}

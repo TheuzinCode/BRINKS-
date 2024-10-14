@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/produto.css">
+
+    <title>BRINKS?</title>
+
+    <header>
+        <div class="nomesite">BRINKS?</div>
+        <div class="carrinho">
+            <div><a href="#"><img class="tamIcone" src="IMAGENS/sino.png"></a></div>
+            <div><a href="login.html"><img class="tamIcone" src="IMAGENS/conta.png"></a></div>
+            <div><a href="sacola.html"><img class="tamIcone" src="IMAGENS/sacola.png"></a></div>
+        </div>
+
+        <div class="c">
+            <img src="IMAGENS/C.png"></a>
+        </div>
+    </header>
+
+<body>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="pginicial.html" class="txtmenu">PRODUTOS</a></li>
+                <li><a href="#" class="txtmenu">NOVIDADES</a></li>
+                <li><a href="#" class="txtmenu">OFERTAS</a></li>
+                <li><a href="#" class="txtmenu">EXCLUSIVOS</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="imgpro">
+            <img src="IMAGENS/boliche.png" class="imgpro">
+        </div>
+        <div class="layout">
+            <div class="line1"></div>
+            <div><img src="IMAGENS/estrela produto.png" class="estrela">
+                <p class="txtpro">Jogo Boliche Colorido 8 Peças</p>
+                <p class="estoque1"> Boliche diverrtido para a criançada! </p>
+                <p class="estoque">Estoque: <span class="disponivel">DISPONÍVEL</span> </p>
+            </div>
+            <div class="line1"></div>
+            <div>
+                <p class="valornormal"">DE <span class="descontopro">R$ 99,99</span></p>
+            </div>
+            <div>
+                <p class="valornormal"">POR <span class="valordesconto">R$ 79,99</span></p>
+            </div>
+            <div class="txt">
+                <p>ou 2x de <span class="n">R$ 39,99</span> sem juros</p>
+            </div>
+            <div class="txt1">
+                <p>Quantidade
+                <div class="contador">
+                    <button class="btn-decrement" onclick="decrement()">-</button>
+                    <span class="numero" id="contador">1</span>
+                    <button class="btn-increment" onclick="increment()">+</button>
+                </div>
+            
+                <script>
+                    let count = 1;
+            
+                    function increment() {
+                        count++;
+                        document.getElementById("contador").textContent = count;
+                    }
+            
+                    function decrement() {
+                        if (count > 0) {
+                            count--;
+                            document.getElementById("contador").textContent = count;
+                        }
+                    }
+                </script></p>
+            </div>
+            <div>
+                <button class="botao" type="submit">Adicionar ao carrinho
+            </div>
+            <div class="line1"></div>
+        </div>
+    </div>
+  
+    <div class="ex">
+        <div class="line2"></div>
+        <div class="txtexp">EXPERIMENTE!</div>
+        <div class="line2"></div>
+    </div>
+
+    <div class="layoutpro">
+        <div class="brinquedos">
+            <a href="#"><img src="IMAGENS/robin.png" class="imgBrin"></a>
+            <div class="nomeproduto"><a href="#" class="ntd">BONECO ROBIN</a></div>
+            <div>
+                <p class="txtcata">DE <span class="desconto">R$ 144,99</span></p>
+            </div>
+            <div>
+                <p class="txtcata">POR <span class="preco">R$ 123,00</span></p>
+            </div>
+        </div>
+
+        <div class="brinquedos">
+            <a href="#"><img src="IMAGENS/cachorro.png" class="imgBrin"></a>
+            <div class="nomeproduto"><a href="#" class="ntd">CACHORRO DE PELÚCIA</a></div>
+            <div>
+                <p class="txtcata">DE <span class="desconto">R$ 194,99</span></p>
+            </div>
+            <div>
+                <p class="txtcata">POR <span class="preco">R$ 99,99</span></p>
+            </div>
+        </div>
+
+        <div class="brinquedos">
+            <a href="#"><img src="IMAGENS/quebraC.png" class="imgBrin"></a>
+            <div class="nomeproduto"><a href="#" class="ntd">QUEBRA-CABEÇA</a></div>
+            <div>
+                <p class="txtcata">DE <span class="desconto">R$ 209,99</span></p>
+            </div>
+            <div>
+                <p class="txtcata">POR <span class="preco">R$ 199,99</span></p>
+            </div>
+        </div>
+
+        <div class="brinquedos">
+            <a href="#"><img src="IMAGENS/boliche.png" class="imgBrin"></a>
+            <div class="nomeproduto"><a href="#" class="ntd">BOLICHE</a></div>
+            <div>
+                <p class="txtcata">DE <span class="desconto">R$ 99,99</span></p>
+            </div>
+            <div>
+                <p class="txtcata">POR <span class="preco">R$ 79,99</span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="div1"> SOBRE A BRINKS <br> CONTATO</div>
+        <div class="div1"> AJUDA</div>
+        <div class="div1"> Mais Informações</div>
+    </footer>
+</body>
+
+</html>

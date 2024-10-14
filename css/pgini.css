@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Young+Serif&display=swap');
+
+/* margin do texto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --fontitulo: "Young Serif", serif;
+    --fontexto: "Oswald", sans-serif;
+    --tam48: 48px;
+    --tam20: 20px;
+    --tam16: 16px;
+    --tam28: 28px;
+    --tam36: 36px;
+    --cor1: #F5EF41;
+    --cor2: #281933;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+}
+
+/* cabeçalho */
+header {
+    display: flex;
+    background-color: #F5EF41;
+    justify-content: center;
+    align-items: center;
+    height: 122px;
+}
+
+/* nome do site */
+.nomesite {
+    color: var(--cor2);
+    font-family: var(--fontitulo);
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--tam48);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tamIcone{
+    width: 25px;
+    height: 25px;
+}
+
+/* logo C*/
+.c {
+    position: absolute;
+    left: 57%;
+    top: 20px;
+}
+
+
+/* icones */
+.carrinho {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    right: 150px;
+    top: 40px;
+}
+
+/* colorir menu e layout*/
+.menu {
+    background-color: #FFFCAB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 78px;
+
+
+}
+
+/* configuração menu*/
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+/* texto do menu*/
+.txtmenu {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* imagem principal*/
+.banner {
+    width: 100%;
+    height: 516px;
+}
+
+/* Imagem girafa*/
+.girafa {
+    width: 370px;
+    height: 621px;
+}
+
+/* layout do texta da girafa */
+.layouttxtgi {
+    display: block;
+    width: 430px;
+    height: 480px;
+}
+
+/* titulo da girafa */
+.titlegirafa {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 32px;
+    text-align: start;
+    margin-left: 5px;
+    width: 372px;
+    height: 63px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Texto da girafa*/
+.txtgirafa {
+    margin-top: 20px;
+    font-family: var(--fontexto);
+    color: black;
+    font-size: var(--tam16);
+    align-items: center;
+    width: 400px;
+    height: 144px;
+}
+
+/* Texto compre */
+.txtcompre {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 35px;
+    text-align: start;
+    margin-top: 60px;
+    margin-left: 3px;
+    width: 372px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* texto somente */
+.txtsomente {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/* texto preço */
+.txtpreco {
+    color: #00A023;
+    font-family: var(--fontexto);
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+}
+
+/* linha embaixo do preço */
+.line {
+    margin-top: -9px;
+    background-color: #00A023;
+    width: 158px;
+    height: 4px;
+}
+
+/* linha do experimente */
+.line2 {
+    background-color: #8A42F5;
+    width: 233px;
+    height: 5px;
+}
+
+/* texto experimente */
+.txtexp {
+    font-family: var(--fontexto);
+    font-size: 32px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* layout dos produtos */
+.layoutpro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 100px;
+}
+
+/* imagens dos produtos brinquedos*/
+.imgBrin {
+    display: block;
+    margin: 0 auto;
+    height: 240px;
+}
+
+/* brinquedos */
+.brinquedos {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+
+}
+
+/* nome do produto*/
+.nomeproduto {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: var(--tam28);
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.ntd {
+    text-decoration: none;
+    color: black;
+}
+
+/* paragrafo */
+p {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+/* desconto produtos*/
+.desconto {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    color: red;
+    text-decoration: line-through;
+}
+
+/* preço dos produtos listados*/
+.preco {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*imagens reborn*/
+.container02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+/* layout do texto avaliação sobre o site */
+.avali {
+    display: block;
+    text-align: center;
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+/* texto avaliação sobre o site */
+.txtAeR {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+/*  imagem da boneca reborn pequena */
+.imgReborn1 {
+    width: 250px;
+    height: 250px;
+   
+}
+
+/* imagem da boneca reborn grande */
+.imgReborn2 {
+    width: 900px;
+    height: 472px;
+    
+}
+
+/* texto do frete */
+.frete {
+    margin-top: 50px;
+    font-family: var(--fontexto);
+    color: #009A22;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* linha do frete*/
+.line3 {
+    margin-top: -7px;
+    margin-bottom: 50px;
+    background-color: #009A22;
+    width: 311px;
+    height: 3px;
+}
+
+.line4 {
+    margin: 50px;
+    background-color: #8A42F5;
+    width: 720px;
+    height: 5px;
+}
+
+
+.txtmidia {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 70px;
+}
+
+.rds {
+    width: 50px;
+    height: 50px;
+}
+
+/* contato com a loja e informações*/
+.div1 {
+    display: flex;
+    color: white;
+    font-family: var(--fontexto);
+    font-size: 23px;
+    height: 150px;
+    width: 150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* rodapé */
+footer {
+    height: 355px;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #2E2436;
+
+}

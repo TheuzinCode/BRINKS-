@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+
+</head>
+
+<header>
+    <div class="nomesite">BRINKS?</div>
+    <div class="carrinho">
+        <div><a href="#"><img class="tamIcone" src="IMAGENS/sino.png"></a></div>
+        <div><a href="login.html"><img class="tamIcone" src="IMAGENS/conta.png"></a></div>
+        <div><a href="sacola.html"><img class="tamIcone" src="IMAGENS/sacola.png"></a></div>
+    </div>
+
+    <div class="c">
+        <img src="IMAGENS/C.png"></a>
+    </div>
+</header>
+
+<body>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="pginicial.html" class="txtmenu">PRODUTOS</a></li>
+                <li><a href="#" class="txtmenu">NOVIDADES</a></li>
+                <li><a href="#" class="txtmenu">OFERTAS</a></li>
+                <li><a href="#" class="txtmenu">EXCLUSIVOS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="bloco">
+            <div class="cadastro">CADASTRO</div>
+            <div class="container">
+                <div class="itensOb"> Itens com * são obrigatórios </div>
+            </div>
+            <div class="container">
+
+                <section>
+                    <form action="dados-clientes.html" method="post">
+                        <div>
+                            <div style="margin-top: 50px;">
+                                <label for="nome" class="titulo">Nome *</label>
+                                <input type="nome" class="input" name="nome">
+                            </div>
+                            <div>
+                                <label for="Sobrenome" class="titulo">Sobrenome *</label>
+                                <input type="sobrenome" class="input" name="sobrenome">
+                            </div>
+                            <div>
+                                <label for="CPF" class="titulo">CPF <span class="somente"> (Somente números)
+                                        *</span></label>
+                                <input type="CPF" class="input" name="CPF" required minlength="11" maxlength="11"
+                                    pattern="\d{11}">
+                            </div>
+
+                            <div>
+                                <label for="email" class="titulo">E-mail *</label>
+                            </div>
+
+                            <div>
+                                <input type="email" class="input" name="email">
+                            </div>
+
+                            <div>
+                                <label for="senha" class="titulo">Senha *</label>
+                            </div>
+
+                            <div>
+                                <input type="password" id="senha" name="senha" class="input">
+                            </div>
+
+                            <div>
+                                <label for="senha" class="titulo">Confirme a senha *</label>
+                            </div>
+
+                            <div>
+                                <input type="password" id="senha" name="senha" class="input">
+                            </div>
+                        </div>
+            </div>
+
+            </form>
+            </section>
+
+
+            <div class="container">
+                <div class="termos"><input type="checkbox" name="service" value="lembrar" checked="checked" /> Li e
+                    aceito todos os <a href="#">Termos e Condições</a></div>
+            </div>
+
+
+            <div class="container02">
+                <button class="botao" type="submit">CRIAR CONTA
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <br><br><br><br><br><br><br>
+
+    <footer>
+        <div class="div1"> SOBRE A BRINKS <br> CONTATO</div>
+        <div class="div1"> AJUDA</div>
+        <div class="div1"> Mais Informações</div>
+    </footer>
+</body>
+
+</html>

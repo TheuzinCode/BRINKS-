@@ -1,0 +1,322 @@
+/*fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Young+Serif&display=swap');
+
+/*margin do site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variavveis pre definidas */
+:root {
+    --fontitulo: "Young Serif", serif;
+    --fontexto: "Oswald", sans-serif;
+    --tam48: 48px;
+    --tam20: 20px;
+    --tam28: 28px;
+    --tam36: 36px;
+    --cor1: #F5EF41;
+    --cor2: #281933;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* corpo do site */
+body{
+    background-color: #FFFEE9;
+}
+
+/* cabeçalho do site */
+header {
+    display: flex;
+    background-color: #F5EF41;
+    justify-content: center;
+    align-items: center;
+    height: 122px;
+}
+
+/* nome do site */
+.nomesite {
+    color: var(--cor2);
+    font-family: var(--fontitulo);
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--tam48);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* tamanho do icone */
+.tamIcone{
+    width: 25px;
+    height: 25px;
+}
+
+/* icone */
+.c {
+    position: absolute;
+    left: 57%;
+    top: 20px;
+}
+
+
+/* icones */
+.carrinho {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    right: 150px;
+    top: 40px;
+}
+
+/* menu */
+.menu {
+    background-color: #FFFCAB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 78px;
+
+
+}
+
+/* colorir menu */
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+/* texto menu */
+.txtmenu {
+    font-family: var(--fontexto);
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* bloco de cadastro */
+.bloco{
+    background-color: #FFFFFF;
+    width: 840px;
+    height: 792px;
+    margin-top: 70px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* campo cirar conta */
+.novo{
+    margin-top: 20px;
+    text-align: center;
+    font-family: var(--fontexto);
+    font-weight: 200;
+    font-size: var(--tam20);
+    color: black;
+}
+
+/* texto criar conta */
+.create{
+    text-decoration: underline;
+    color: black;
+    font-family: var(--fontexto);
+    font-weight: 400;
+    font-size: var(--tam20);
+    
+}
+
+/* itens obrigatorios */
+.itensOb{
+    color: red;
+    position: absolute;
+    left: 57%;
+    font-family: var(--fontexto);
+    font-size: 13px;
+    margin-bottom: -140px;
+    font-weight: 300;
+
+}
+
+/* Login */
+.login {
+    display: flex;
+    margin-top: px;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+    font-family: var(--fontexto);
+    font-weight: 400;
+    font-size: var(--tam36);
+}
+
+/* caixa de email */
+.email {
+
+    display: flex;
+    align-items: end;
+    margin-top: 35px;
+    font-family: var(--fontexto);
+    font-weight: 300;
+    font-style: normal;
+    font-size: var(--tam20);
+    width: 480px;
+    margin-bottom: 5px;
+
+
+}
+
+/* caixa senha */
+.senha {
+    display: flex;
+    align-items: end;
+    margin-top: 35px;
+    font-family: var(--fontexto);
+    font-weight: 300;
+    font-style: normal;
+    font-size: var(--tam20);
+    width: 480px;
+    margin-bottom: 5px;
+    
+}
+
+/* layout links do google e facebook */
+.layoutlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    gap: 60px;
+}
+
+/* caixa de entrada de dados */
+.input {
+    border: 2px solid #939292;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 480px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+
+/* lembrar senha */
+.lembrar{
+    width: 240px;
+    font-family: var(--fontexto);
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* caixa para selecionar o lembrar */
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;   
+    cursor: pointer;
+}
+
+
+/* Esquceu a senha */
+.esqueceu{
+    color: black;
+    text-decoration: underline;
+    text-align: right;
+    width: 240px;
+    font-family: var(--fontexto);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* tamanho da imagem dos links */
+.links {
+    height: 40px;
+    width: 40px;
+}
+
+/* botão */
+.botao {
+    font-family: var(--fontexto);
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--tam28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5EF41;
+    width: 250px;
+    height: 60px;
+    border: 1px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+/* mudar a cor qunado o mouse passar por cima */
+.botao:hover{
+    outline: none;
+    background-color: #FFC070;
+    color: black;
+}
+
+
+/* para o LOGAR COM */
+.container02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+}
+
+/*linha do lado LOGAR COM*/
+.line {
+    background-color: #8A42F5;
+    width: 150px;
+    height: 5px;
+}
+
+/* texto logar */
+.txtlogar {
+    font-family: var(--fontexto);
+    font-size: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+
+/* texto do rodapé */
+.div1 {
+    display: flex;
+    color: white;
+    font-family: var(--fontexto);
+    font-size: 23px;
+    height: 150px;
+    width: 150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* rodapé */
+footer {
+    height: 355px;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #2E2436;
+}
