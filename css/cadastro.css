@@ -13,7 +13,7 @@
     --fontitulo: "Young Serif", serif;
     --fontexto: "Oswald", sans-serif;
     --fontmenu: "Comfortaa", sans-serif;
-    --tam16: 16px;
+    --tam18: 18px;
     --tam48: 48px;
     --tam20: 20px;
     --tam28: 28px;
@@ -93,7 +93,7 @@ nav ul li {
 .txtmenu {
     font-family: var(--fontmenu);
     color: black;
-    font-size: var(--tam16);
+    font-size: var(--tam18);
     text-decoration: none;
     text-align: center;
     font-weight: 300;
